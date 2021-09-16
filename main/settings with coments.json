@@ -1,0 +1,44 @@
+{   
+    "resolution" : [1240, 1754], //Размер страницы
+    "color" : "#FFFFFF", //Цвет страницы
+    "side_borders" : 10, //Расстояние от краев страницы до контента
+    "title" : {
+        "font" : "/home/tomoko/project/hacker/v.otf", //Путь до шрифта
+        "font_size" : 55, //Кегель шрифта
+        "min_font_size" : 40, //Если заголовок не будет помещаться то кегель будет постепенно уменьшаться пока не влезет ну или не достигнет мин размера
+        "font_color" : "#A30008", // Цвет шрифта
+        "gap" : 80 //Расстояние от верхней грани страницы до заголовка
+    },
+    "subtitle" : {
+        "text" : "content", //Текст подзаголовка
+        "font" : "/home/tomoko/project/hacker/v.otf",
+        "font_size" : 50,
+        "min_font_size" : 40,
+        "font_color" : "#000000",
+        "gap" : 70 //Расстояние от заголовка до подзаголовка
+    },
+    "content" : {
+        "gap_top" : 40, //Расстояние от подзаголовка до контента
+        "author" : {
+            "font" : "/home/tomoko/project/hacker/v.otf",
+            "font_size" : 30,
+            "min_font_size" : 20,
+            "font_color" : "#000000"
+        },
+        "author_to_title_distance" : 10, //Расстояние от строки автора до строки с названием тайтла
+        "title" : {
+            "font" : "/home/tomoko/project/hacker/v.otf",
+            "font_size" : 40,
+            "min_font_size" : 30,
+            "font_color" : "#A30008"
+        },
+        "title_to_pages_distance" : 10, //Расстояние от названия до номера страницы
+        "pages" : {
+            "font" : "/home/tomoko/project/hacker/v.otf",
+            "font_size" : 35,
+            "min_font_size" : 30, //А это здесь зачем?
+            "font_color" : "#000000"
+        },
+        "title_to_author_distance" : 10 //Расстояние от строки с названием тайтла до строки автора
+    }
+}
