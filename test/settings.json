@@ -1,0 +1,55 @@
+{
+    "page": {
+        "resolution": ["auto","auto"],
+        "right_margin": 10,
+        "left_margin": 10,
+        "top_margin": 10,
+        "bottom_margin": 100,
+        "color": "#FFFFFF"
+    },
+    "title": {
+        "font": "/home/tomoko/project/hacker/v.otf",
+        "font_size": 60,
+        "min_font_size": 40,
+        "font_color": "#A30008"
+    },
+    "subtitle": {
+        "text": "А играть будем?",
+        "font": "/home/tomoko/project/hacker/v.otf",
+        "font_size": 50,
+        "min_font_size": 40,
+        "font_color": "#000000"
+    },
+    "content": {
+        "style" : {
+            "align" : "left",
+            "use_two_columns" : "maybe"
+        },
+        "author": {
+            "font": "/home/tomoko/project/hacker/v.otf",
+            "font_size": 30,
+            "min_font_size": 20,
+            "font_color": "#000000"
+        },
+        "title": {
+            "font": "/home/tomoko/project/hacker/v.otf",
+            "font_size": 40,
+            "min_font_size": 30,
+            "font_color": "#A30008"
+        },
+        "page_number": {
+            "font": "/home/tomoko/project/hacker/v.otf",
+            "font_size": 35,
+            "min_font_size": 30,
+            "font_color": "#000000"
+        }
+    },
+    "space" : {
+        "title_to_subtitle" : 10,
+        "sibtitle_to_content" : 10,
+        "author_to_title" : 10,
+        "title_to_page_number" : 10,
+        "title_to_autor" : 10,
+        "between_columns" : 10
+    }
+}
