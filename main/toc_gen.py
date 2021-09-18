@@ -55,8 +55,6 @@ class Page():
         text = str(text)
         width = font.getmask(text).getbbox()[2]
         height = font.getmask(text).getbbox()[3]
-        if not is_list:
-            return (width, height)
         return [width, height]
 
 
