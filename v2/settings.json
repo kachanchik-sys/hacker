@@ -1,6 +1,7 @@
 {
     "page": {
         "resolution": ["auto","auto"],
+        "target_aspect_ratio" : false,
         "right_margin": 10,
         "left_margin": 10,
         "top_margin": 10,
@@ -8,39 +9,39 @@
         "color": "#FFFFFF"
     },
     "title": {
-        "font": "/home/tomoko/project/hacker/test/fontick.otf",
+        "font": "/home/tomoko/project/hacker/v2/fontick.otf",
         "font_size": 60,
         "min_font_size": 60,
         "font_color": "#A30008"
     },
     "subtitle": {
         "text": "А играть будем?",
-        "font": "/home/tomoko/project/hacker/test/fontick.otf",
+        "font": "/home/tomoko/project/hacker/v2/fontick.otf",
         "font_size": 50,
         "min_font_size": 40,
         "font_color": "#000000"
     },
     "content": {
         "style" : {
-            "align" : "left",
-            "use_two_columns" : false,
+            "align" : "right",
+            "use_two_columns" : true,
             "mirror_columns" : true
         },
         "author": {
-            "font": "/home/tomoko/project/hacker/test/fontick.otf",
+            "font": "/home/tomoko/project/hacker/v2/fontick.otf",
             "font_size": 30,
             "min_font_size": 20,
             "font_color": "#000000"
         },
         "title": {
-            "font": "/home/tomoko/project/hacker/test/fontick.otf",
+            "font": "/home/tomoko/project/hacker/v2/fontick.otf",
             "font_size": 50,
             "min_font_size": 20,
             "font_color": "#A30008"
         },
         "page_number": {
-            "font": "/home/tomoko/project/hacker/test/fontick.otf",
-            "font_size": 35,
+            "font": "/home/tomoko/project/hacker/v2/fontick.otf",
+            "font_size": 50,
             "font_color": "#000000"
         }
     },
